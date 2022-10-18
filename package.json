@@ -1,0 +1,50 @@
+{
+  "name": "virusapp",
+  "version": "0.0.2",
+  "homepage": "/",
+  "dependencies": {
+    "@types/body-scroll-lock": "^2.6.1",
+    "@vkontakte/icons": "^1.69.0",
+    "@vkontakte/vk-bridge": "^2.3.0",
+    "@vkontakte/vkui": "^3.5.0",
+    "babel-eslint": "10.1.0",
+    "body-scroll-lock": "^3.1.5",
+    "colors": "^1.4.0",
+    "core-js": "^3.6.4",
+    "eruda": "^2.2.0",
+    "eruda-code": "^2.0.0",
+    "eruda-dom": "^2.0.0",
+    "mongoose": "^5.11.11",
+    "prop-types": "^15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "socket.io": "3.1.0",
+    "socket.io-client": "3.1.0",
+    "vk-io": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "react-scripts": "3.4.3",
+    "typescript": "~3.7.2"
+  },
+  "scripts": {
+    "start": "PORT=10888 react-scripts start",
+    "build": "CI=true GENERATE_SOURCEMAPS=false react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

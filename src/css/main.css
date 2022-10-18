@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/font.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Commons';
+  src: url('../fonts/ttcommons.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Commons normal';
+  src: url('../fonts/ttcommonssecond.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Panel__in {
+	background: -webkit-linear-gradient(45deg, rgb(255, 38, 0), rgb(255, 167, 0));
+	background: -moz-linear-gradient(45deg, rgb(255, 38, 0), rgb(255, 167, 0));
+	background: linear-gradient(45deg, rgb(255, 38, 0), rgb(255, 167, 0));
+}
+
+.virusImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4vmax;
+  filter: drop-shadow(0 0 5px rgba(0,0,0,0.5));
+  width: 16vmax;
+  height: 16vmax;
+}
+
+.nutriImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vmax;
+  width: 16vmax;
+  height: 16vmax;
+}
+
+.banner {
+  z-index: 20;
+}
+
+.virusText {
+  font-weight: bold;
+  font-family: "Montserrat";
+  margin-top: 4vmax;
+  font-size: 6vmax;
+  color: #FFFFFF;
+  filter: drop-shadow(0 0 3px rgba(0,0,0,0.5));
+}
+
+.modal {
+  margin-top: 3vmax;
+  text-align: center;
+}
+
+.card {
+  margin-top: 2vmax;
+}
+
+.homeModal__secondText {
+  text-color: #989898;
+  font-size: 3vmax;
+  font-family: "TT Commons normal";
+}
+
+.homeModal__count {
+  text-color: #BD000A;
+  font-size: 5vmax;
+  margin-top: 2vmax;
+  font-family: "TT Commons";
+}
+
+.container {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.center_vert {
+  display: inline-block;
+}
+
+.homeModal {
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  border-radius: 25px 25px 0px 0px;
+  width: 95%;
+  height: 70vmax;
+  filter: drop-shadow(0 0 3px rgba(0,0,0,0.5));
+}
+
+.useTablet {
+  color: #0092FF;
+  font-size: 5vmin;
+  font-family: "TT Commons";
+}
+
+.center {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-items: space-between;
+  position: relative;
+}
+
+.cell {
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.circle {
+  border-radius: 50%;
+  background: #E6E6E6;
+}
+
+.img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.second_center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  height: 90%;
+  width: 90%;
+}
+
+.white__background {
+  background: #FFFFFF;
+  height: 150vmax;
+}
+
+.intro__text {
+  text-color: #BD000A;
+  font-size: 3vmax;
+  margin-top: 2vmax;
+  font-family: "TT Commons";
+}
